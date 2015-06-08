@@ -5,19 +5,21 @@ edit the files in the repository
 one common file can be seen by every user and the changes can be applied to everyone using this file. It is not necessary
 that locally one need to make changes to the file every time it is changed by others in the team. 
 ->Just checking it out is enough.
-->There are few steps:
-  Mapping the remote directories/files to a local location
+->There are few steps/concepts:
+
+  Mapping the remote directories/files to a local location(Cloning)
   i.Change the directory to where it needs to be mapped.
   ii.Use the command git clone (clone url)
   
   If the origin master location(where u r committing the changes and also the place from where we are checking out) is not 
-  accepted use the id name od git hub along with the url and change the origin name
+  accepted use the id name od git hub along with the url and change the master location(remote) name
   i.git remote set-url origin <new-url>
+  ii.Here origin is the name we set for the remote location and we assigned to be the git hub repository(from where are the files
+  are extracted)
   
   Checking out the file from the repository into the local computer
   This can be done as follows:
-  i.This is nothing but mapping 
-  ii.Every time we map it and get all the files in the repository and use them
+  i.git fetch <remote location name>
   
   Adding files to the index(staging)
   i.Using git add ., we add the files to the index implies we make it ready to commit
@@ -32,3 +34,13 @@ that locally one need to make changes to the file every time it is changed by ot
   Pushing to the remote location:
   i.git push origin master pushes the files to the remote repository
   
+  Adding repositories
+  i.git add <repo name> <repo url>
+    adds the new repository to the local system
+  ii.Remember , adding new repo implies only adding some short cut names to the repositaries
+  iii.It means we are just naming them so that later the name can be used to push it into the repo
+  
+  Creating new branches
+  i.In the same repo , we can create any number of branches and each brach as usual can be given a new remote name by adding
+    the new repository - as simple as such 
+  ii.Master is the branch initially created...
