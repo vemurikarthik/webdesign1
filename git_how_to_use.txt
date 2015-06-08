@@ -35,7 +35,7 @@ that locally one need to make changes to the file every time it is changed by ot
   i.git push origin master pushes the files to the remote repository
   
   Adding repositories
-  i.git add <repo name> <repo url>
+  i.git remote add <repo name> <repo url>
     adds the new repository to the local system
   ii.Remember , adding new repo implies only adding some short cut names to the repositaries
   iii.It means we are just naming them so that later the name can be used to push it into the repo
@@ -44,3 +44,5 @@ that locally one need to make changes to the file every time it is changed by ot
   i.In the same repo , we can create any number of branches and each brach as usual can be given a new remote name by adding
     the new repository - as simple as such 
   ii.Master is the branch initially created...
+  
+  If there are no changes between the local and latest commit, it says no changes all upto date , same with push also
