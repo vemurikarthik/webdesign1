@@ -44,6 +44,6 @@ that locally one need to make changes to the file every time it is changed by ot
   i.In the same repo , we can create any number of branches and each brach as usual can be given a new remote name by adding
     the new repository - as simple as such 
   ii.Master is the branch initially created...
-  iii.git checkout -b <newname> creates a new branch 
+  iii.git checkout -b <newname> creates a new branch locally
   
-  git checkout <existing name>
+  git checkout <existing name> checks out the existing branch
