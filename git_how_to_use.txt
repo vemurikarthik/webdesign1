@@ -1,0 +1,34 @@
+->GIT is a Distributed Version Control Sytem used to create repositaries which facilitate adding(checkin), pull out (checkout) , 
+edit the files in the repository
+->GIT is different from Native Version Control Systems(Local VCS)and Centralised Version Control Systems(CVCS)
+->These are very useful because there is a backup all the time and also when working in a group/team, the changes committed to
+one common file can be seen by every user and the changes can be applied to everyone using this file. It is not necessary
+that locally one need to make changes to the file every time it is changed by others in the team. 
+->Just checking it out is enough.
+->There are few steps:
+  Mapping the remote directories/files to a local location
+  i.Change the directory to where it needs to be mapped.
+  ii.Use the command git clone (clone url)
+  
+  If the origin master location(where u r committing the changes and also the place from where we are checking out) is not 
+  accepted use the id name od git hub along with the url and change the origin name
+  i.git remote set-url origin <new-url>
+  
+  Checking out the file from the repository into the local computer
+  This can be done as follows:
+  i.This is nothing but mapping 
+  ii.Every time we map it and get all the files in the repository and use them
+  
+  Adding files to the index(staging)
+  i.Using git add ., we add the files to the index implies we make it ready to commit
+  
+  Commit
+  i.Using git commit, we commit all the changes that are made to the files in the repository
+  ii.Using -m we can mention comments to the committed files 
+  iii.This will only commit the changes in the local repository
+  iv.Even though changes are made to the files later(after commit),when we push only committed files are pushed to the local 
+  repository
+  
+  Pushing to the remote location:
+  i.git push origin master pushes the files to the remote repository
+  
