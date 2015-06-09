@@ -38,7 +38,9 @@ that locally one need to make changes to the file every time it is changed by ot
   i.git remote add <repo name> <repo url>
     adds the new repository to the local system
   ii.Remember , adding new repo implies only adding some short cut names to the repositaries
-  iii.It means we are just naming them so that later the name can be used to push it into the repo
+  iii.It means we are just naming them 	so that later the name can be used to push it into the repo
+  
+  These Testing
   
   Creating new branches
   i.In the same repo , we can create any number of branches and each brach as usual can be given a new remote name by adding
